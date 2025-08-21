@@ -15,7 +15,7 @@ h2 {
 
 
 header {
-    background: linear-gradient(to right, black, rgb(47, 35, 126));
+    background: linear-gradient(to right, black,  rgb(47, 35, 126));
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -74,18 +74,6 @@ li {
     width: 50px;
 }
 
-
-
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(to left, black, rgb(47, 35, 126));
-    height: 40px;
-    color: white;
-    font-size: 15px;
-}
-
 li a {
     color: white;
     text-decoration: none;
@@ -112,3 +100,30 @@ li a::after {
 li a:hover::after {
     width: 100%;
 }
+
+h2 span,h1 span{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s, transform 0.3s;
+    display: inline-block;
+}
+
+h2 span:hover,h1 span:hover {
+    color: #e6ff01;
+    transform: scale(1.1);
+    cursor: zoom-in;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, black, rgb(47, 35, 126));
+    height: 40px;
+    color: white;
+    font-size: 15px;
+}
+

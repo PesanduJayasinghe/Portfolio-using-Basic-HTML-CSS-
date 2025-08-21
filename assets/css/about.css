@@ -1,3 +1,8 @@
 body{
-    background-color: black;
+    margin: 0%;
+    background: linear-gradient(to right, rgb(215, 61, 254), rgb(47, 35, 126));
+}
+
+footer{
+    margin-top: 118px;
 }
