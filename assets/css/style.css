@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bitcount+Prop+Double:wght@100..900&family=Bitcount+Prop+Single:wght@100..900&family=DM+Serif+Display:ital@0;1&family=Edu+SA+Hand:wght@400..700&family=Fjalla+One&family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0%;
+}
+
+h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+
+header {
+    background: linear-gradient(to right, black,  rgb(47, 35, 126));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    gap: 120px;
+    height: 60px;
+
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, rgb(215, 61, 254), rgb(47, 35, 126));
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(202, 198, 198);
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+
+
+}
+
+.icons-size {
+    width: 50px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s;
+}
+
+li a:hover {
+    color: #09ff00;
+}
+
+
+li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    background-color: #00ff1a;
+    transition: width 0.3s;
+}
+
+li a:hover::after {
+    width: 100%;
+}
+
+h2 span,h1 span{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s, transform 0.3s;
+    display: inline-block;
+}
+
+h2 span:hover,h1 span:hover {
+    color: #e6ff01;
+    transform: scale(1.1);
+    cursor: zoom-in;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, black, rgb(47, 35, 126));
+    height: 40px;
+    color: white;
+    font-size: 15px;
+}
+
